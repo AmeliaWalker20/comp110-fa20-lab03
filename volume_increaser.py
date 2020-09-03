@@ -25,3 +25,4 @@ for sample_number in range(len(filtered_sound)):
 
 filtered_sound.play()
 sound.wait_until_played()  # waits until love_sound is done playing
+filtered_sound.display()
